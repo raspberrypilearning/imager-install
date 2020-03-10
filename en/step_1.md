@@ -27,8 +27,6 @@ When you launch the installer, your operating system may try to block you from r
 
 + If you get this, click on `More info` and then `Run anyway`.
 
-+ Follow the instructions to install and run the Raspberry Pi Imager.
-
 + Insert your SD card into the computer or laptop’s SD card slot.
 
 + In the Raspberry Pi Imager, select the OS that you want to install and the SD card you would like to install it on.
