@@ -2,7 +2,7 @@ title: imager-install
 hero_image: images/banner.png
 description: imager-install description
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2020-03-10"
 steps:
