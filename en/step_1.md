@@ -1,29 +1,27 @@
-## Set up your SD card
+## Install Raspbian on your SD card with the Raspberry Pi Imager
 
-If you have an SD card that doesn't have the Raspbian operating system on it yet, or if you want to reset your Raspberry Pi, you can easily install Raspbian yourself. To do so, you need a computer that has an SD card port — most laptop and desktop computers have one.
-
-### The Raspbian operating system via the Raspberry Pi Imager
+Many vendors sell SD cards with a simple Raspbian installer called NOOBS preinstalled but you can really easily install Raspbian yourself using a computer that has an SD card port or using an SD card reader.
 
 Using the Raspberry Pi Imager is the easiest way to install Raspbian on your SD card.
 
 **Note:** more advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). 
 
-#### Download and launch the Raspberry Pi Imager
+### Download and launch the Raspberry Pi Imager
 
 + Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
 + Click on the link for the Raspberry Pi Imager that matches your operating system.
 
 ![Downloads page](images/newInstaller_downloadsPage.png)
 
-+ When the download finishes, click it to launch the installer.
++ When the download finishes, click on it to launch the installer.
 
 ![Launch installer](images/newInstaller_launchInstaller.png)
 
-#### Using the Raspberry Pi Imager
+### Using the Raspberry Pi Imager
 
-Anything that's stored on the SD card will be overwritten during formatting. So if the SD card on which you want to install Raspbian currently has any files on it, e.g. from an older version of Raspbian, you may wish to back these files up first to not lose them permanently.
+All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
 
-When you launch the installer, your operating system may try to block you from running it. For example on Windows I get the following: 
+When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message: 
 
 ![Windows warning](images/newInstaller_windowsWarning.png)
 
