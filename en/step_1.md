@@ -1,58 +1,50 @@
-## Introduction
+## Set up your SD card
 
-Add project description here. What will learners be making?
+If you have an SD card that doesn't have the Raspbian operating system on it yet, or if you want to reset your Raspberry Pi, you can easily install Raspbian yourself. To do so, you need a computer that has an SD card port — most laptop and desktop computers have one.
 
-### What you will make
+### The Raspbian operating system via the Raspberry Pi Imager
 
---- no-print ---
-Add instructions for using the embedded content here.
+Using the Raspberry Pi Imager is the easiest way to install Raspbian on your SD card.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+**Note:** more advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+#### Download and launch the Raspberry Pi Imager
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
++ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
++ Click on the link for the Raspberry Pi Imager that matches your operating system.
 
-+ Describe hardware here
+![Downloads page](images/newInstaller_downloadsPage.png)
 
-### Software
++ When the download finishes, click it to launch the installer.
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+![Launch installer](images/newInstaller_launchInstaller.png)
 
-### Downloads
+#### Using the Raspberry Pi Imager
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
+Anything that's stored on the SD card will be overwritten during formatting. So if the SD card on which you want to install Raspbian currently has any files on it, e.g. from an older version of Raspbian, you may wish to back these files up first to not lose them permanently.
 
---- /collapse ---
+When you launch the installer, your operating system may try to block you from running it. For example on Windows I get the following: 
 
---- collapse ---
----
-title: What you will learn
----
+![Windows warning](images/newInstaller_windowsWarning.png)
 
-+ Two or three learning objectives
-+ ...should go here
++ If you get this, click on `More info` and then `Run anyway`.
 
---- /collapse ---
++ Follow the instructions to install and run the Raspberry Pi Imager.
 
---- collapse ---
----
-title: Additional information for educators
----
++ Insert your SD card into the computer or laptop’s SD card slot.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
++ In the Raspberry Pi Imager, select the OS that you want to install and the SD card you would like to install it on.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
 
---- /collapse ---
+![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+
+![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+
++ Then simply click the `WRITE` button.
+
++ Wait for the Raspberry Pi Imager to finsh writing.
+
++ Once you get the following message, you can eject your SD card.
+
+![Write successful message](images/newInstaller_writeSuccessful.png)
