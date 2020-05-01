@@ -1,52 +1,52 @@
-## Install Raspbian on your SD card with the Raspberry Pi Imager
+## Instala Raspbian en tu tarjeta SD con el Raspberry Pi Imager
 
-Many vendors sell SD cards with a simple Raspbian installer called NOOBS preinstalled but you can really easily install Raspbian yourself using a computer that has an SD card port or using an SD card reader.
+Muchos proveedores venden tarjetas SD con un instalador simple de Raspbian llamado NOOBS ya preinstalado, pero puedes instalar Raspbian fácilmente usando un ordenador que tenga un puerto de tarjeta SD o un lector de tarjetas SD.
 
-Using the Raspberry Pi Imager is the easiest way to install Raspbian on your SD card.
+Usar el Raspberry Pi Imager es la forma más fácil de instalar Raspbian en tu tarjeta SD.
 
-**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+**Nota:** Los usuarios más avanzados que deseen instalar un sistema operativo en particular deben usar esta guía para [instalar imágenes del sistema operativo](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
-### Download and launch the Raspberry Pi Imager
+### Descarga y ejecuta el Raspberry Pi Imager
 
-+ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
-+ Click on the link for the Raspberry Pi Imager that matches your operating system.
++ Visita la [página de descargas de Raspberry Pi](https://www.raspberrypi.org/downloads).
++ Haz clic en el enlace de Raspberry Pi Imager que coincida con tu sistema operativo.
 
-![Downloads page](images/newInstaller_downloadsPage.png)
+![Página de descargas](images/newInstaller_downloadsPage.png)
 
-+ When the download finishes, click on it to launch the installer.
++ Cuando finalice la descarga, haz clic en ella para iniciar el instalador.
 
-![Launch installer](images/newInstaller_launchInstaller.png)
+![Iniciar instalador](images/newInstaller_launchInstaller.png)
 
-### Using the Raspberry Pi Imager
+### Usando el Raspberry Pi Imager
 
-All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
+Todos los datos almacenados en la tarjeta SD se sobrescribirán durante el formateo y se perderán permanentemente, así que asegúrate de hacer una copia de seguridad de la tarjeta o de los archivos que desees conservar antes de ejecutar el instalador.
 
-When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message:
+Cuando inicias el instalador, tu sistema operativo puede intentar bloquear su ejecución. Por ejemplo, Windows puede dar el siguiente mensaje:
 
-![Windows warning](images/newInstaller_windowsWarning.png)
+![Advertencia de Windows](images/newInstaller_windowsWarning.png)
 
-+ If you get this, click on `More info` and then `Run anyway`.
++ Si obtienes esto, haz clic en `Más información` y luego `Ejecutar de todos modos`.
 
-+ Insert your SD card into the computer or laptop’s SD card slot.
++ Inserta tu tarjeta SD en la ranura para tarjetas SD del ordenador o del portátil.
 
-+ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Raspbian, is the recommended OS.
++ En el Raspberry Pi Imager, selecciona el sistema operativo que deseas instalar. La primera opción, Raspbian, es el sistema operativo recomendado.
 
-![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
+![Raspberry Pi Imager en ventanas](images/newInstaller_selectOS.png)
 
-+ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem.
++ Selecciona la tarjeta SD en la que deseas instalarlo. Las diferentes plataformas mostrarán las unidades de diferentes maneras. El sistema operativo Mac, por ejemplo, te mostrará todas las unidades, incluido el sistema operativo principal.
 
-**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+**Nota:** Asegúrate de seleccionar la unidad correcta. La capacidad de memoria de las unidades puede ser una indicación útil para saber qué unidad estás seleccionando.
 
-![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+![Raspberry Pi Imager en ventanas](images/newInstaller_select-SDCard.png)
 
-Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
+Una vez que hayas seleccionado tanto el sistema operativo como la tarjeta SD, aparecerá un nuevo botón `WRITE` (Nota: escribir).
 
-![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+![Raspberry Pi Imager en ventanas](images/newInstaller_osAndCardSelected.png)
 
-+ Then simply click the `WRITE` button.
++ Luego simplemente haz clic en el botón `ESCRIBIR`.
 
-+ Wait for the Raspberry Pi Imager to finsh writing.
++ Espera a que Raspberry Pi Imager termine de escribir.
 
-+ Once you get the following message, you can eject your SD card.
++ Una vez que recibas el siguiente mensaje, puedes expulsar tu tarjeta SD.
 
-![Write successful message](images/newInstaller_writeSuccessful.png)
+![Mensaje de Escritura con éxito](images/newInstaller_writeSuccessful.png)
