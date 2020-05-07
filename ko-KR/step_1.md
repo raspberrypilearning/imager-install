@@ -1,52 +1,52 @@
-## Install Raspbian on your SD card with the Raspberry Pi Imager
+## Raspberry Pi Imager를 사용하여 SD 카드에 라즈비안 설치하기
 
-Many vendors sell SD cards with a simple Raspbian installer called NOOBS preinstalled but you can really easily install Raspbian yourself using a computer that has an SD card port or using an SD card reader.
+많은 상점에서는 NOOBS라고 하는 라즈비안 간단 설치 프로그램을 설치해서 SD 카드를 판매하지만 SD 카드 포트가 있는 컴퓨터나 SD 카드 리더기를 이용해 혼자서도 쉽게 라즈비안을 설치할 수 있습니다.
 
-Using the Raspberry Pi Imager is the easiest way to install Raspbian on your SD card.
+Raspberry Pi Imager는 SD 카드에 라즈비언을 설치할 수 있는 가장 쉬운 도구입니다.
 
-**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+**참고:**특정 운영 체제를 설치하려는 고급 사용자는 [운영체제 이미지 설치](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) 가이드를 사용하세요.
 
-### Download and launch the Raspberry Pi Imager
+### Raspberry Pi Imager 다운로드 및 설치
 
-+ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
-+ Click on the link for the Raspberry Pi Imager that matches your operating system.
++ [Raspberry Pi 다운로드 페이지](https://www.raspberrypi.org/downloads)를 방문하세요.
++ 자신의 운영 체제에 맞게 Rasberry Pi Imager 링크를 클릭합니다.
 
-![Downloads page](images/newInstaller_downloadsPage.png)
+![다운로드 페이지](images/newInstaller_downloadsPage.png)
 
-+ When the download finishes, click on it to launch the installer.
++ 다운로드가 끝나면 클릭하여 설치 프로그램을 실행하세요.
 
-![Launch installer](images/newInstaller_launchInstaller.png)
+![설치 프로그램 실행](images/newInstaller_launchInstaller.png)
 
-### Using the Raspberry Pi Imager
+### Raspberry Pi Imager 사용하기
 
-All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
+SD 카드에 저장된 모든 데이터는 포맷을 하면 덮어써지고 영구적으로 삭제되므로 설치 프로그램을 실행하기 전에 카드나 저장할 파일을 백업해야 합니다.
 
-When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message:
+설치 프로그램을 실행하면, 당신의 운영체제가 프로그램 실행을 차단할 것입니다. 예를 들어, Windows 에서는 다음과 같은 메시지가 나옵니다:
 
-![Windows warning](images/newInstaller_windowsWarning.png)
+![Windows 경고](images/newInstaller_windowsWarning.png)
 
-+ If you get this, click on `More info` and then `Run anyway`.
++ 이렇게 된다면 `추가 정보`를 클릭한 후, `실행`을 클릭하세요.
 
-+ Insert your SD card into the computer or laptop’s SD card slot.
++ SD 카드를 컴퓨터 또는 노트북의 SD 카드 슬롯에 삽입하세요.
 
-+ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Raspbian, is the recommended OS.
++ Raspberry Pi Imager에서 설치하려는 운영체제를 선택하세요. 첫 번째 선택지인 라즈비안이 권장 운영체제입니다.
 
-![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
+![Windows에서의 Raspberry Pi Imager](images/newInstaller_selectOS.png)
 
-+ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem.
++ 운영체제를 설치하려는 SD 카드를 선택하세요. 설치 환경마다 다른 방식으로 드라이브가 표시됩니다. 예를 들어 Mac OS에서는 당신의 주 운영 체제를 포함한 모든 드라이브를 보여줄 것입니다.
 
-**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+**참고:** 올바른 드라이브를 선택했는지 확인하세요. 드라이브 용량을 보면 당신이 선택한 드라이브가 어느 것인지 손쉽게 파악할 수 있습니다.
 
-![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+![Windows에서의 Raspberry Pi Imager](images/newInstaller_select-SDCard.png)
 
-Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
+운영체제와 SD 카드를 선택하면 새로운 `WRITE` 버튼이 나타날 것입니다.
 
-![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+![Windows에서의 Raspberry Pi Imager](images/newInstaller_osAndCardSelected.png)
 
-+ Then simply click the `WRITE` button.
++ 그런 다음 `WRITE` 버튼을 클릭하세요.
 
-+ Wait for the Raspberry Pi Imager to finsh writing.
++ Raspberry Pi Imager가 쓰기를 마칠 때까지 기다리세요.
 
-+ Once you get the following message, you can eject your SD card.
++ 다음의 메시지가 나온다면 SD 카드를 빼도 됩니다.
 
-![Write successful message](images/newInstaller_writeSuccessful.png)
+![쓰기 성공 메시지](images/newInstaller_writeSuccessful.png)
