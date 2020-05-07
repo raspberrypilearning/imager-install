@@ -1,11 +1,11 @@
 ---
-title: Installing Raspbian using the Raspberry Pi
+title: 라즈베리파이를 사용하여 라즈비안 설치하기
 hero_image: images/banner.png
-description: Installing Raspbian using the Raspberry Pi
+description: 라즈베리파이를 사용하여 라즈비안 설치하기
 version: 4
 listed: true
 copyedit: false
 last_tested: "2020-03-10"
 steps:
   - 
-    title: Introduction
+    title: 소개
