@@ -1,8 +1,8 @@
-## Raspberry Pi Imager를 사용하여 SD 카드에 라즈비안 설치하기
+## Install Rasperry Pi OS on your SD card with the Raspberry Pi Imager
 
-많은 상점에서는 NOOBS라고 하는 라즈비안 간단 설치 프로그램을 설치해서 SD 카드를 판매하지만 SD 카드 포트가 있는 컴퓨터나 SD 카드 리더기를 이용해 혼자서도 쉽게 라즈비안을 설치할 수 있습니다.
+Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi O yourself using a computer that has an SD card port or using an SD card reader.
 
-Raspberry Pi Imager는 SD 카드에 라즈비언을 설치할 수 있는 가장 쉬운 도구입니다.
+Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi O on your SD card.
 
 **참고:**특정 운영 체제를 설치하려는 고급 사용자는 [운영체제 이미지 설치](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) 가이드를 사용하세요.
 
@@ -29,7 +29,7 @@ SD 카드에 저장된 모든 데이터는 포맷을 하면 덮어써지고 영�
 
 + SD 카드를 컴퓨터 또는 노트북의 SD 카드 슬롯에 삽입하세요.
 
-+ Raspberry Pi Imager에서 설치하려는 운영체제를 선택하세요. 첫 번째 선택지인 라즈비안이 권장 운영체제입니다.
++ Raspberry Pi Imager에서 설치하려는 운영체제를 선택하세요. The first option, Rasperry Pi O, is the recommended OS.
 
 ![Windows에서의 Raspberry Pi Imager](images/newInstaller_selectOS.png)
 
