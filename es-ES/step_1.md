@@ -1,8 +1,8 @@
-## Instala Raspbian en tu tarjeta SD con el Raspberry Pi Imager
+## Install Rasperry Pi OS on your SD card with the Raspberry Pi Imager
 
-Muchos proveedores venden tarjetas SD con un instalador simple de Raspbian llamado NOOBS ya preinstalado, pero puedes instalar Raspbian fácilmente usando un ordenador que tenga un puerto de tarjeta SD o un lector de tarjetas SD.
+Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi O yourself using a computer that has an SD card port or using an SD card reader.
 
-Usar el Raspberry Pi Imager es la forma más fácil de instalar Raspbian en tu tarjeta SD.
+Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi O on your SD card.
 
 **Nota:** Los usuarios más avanzados que deseen instalar un sistema operativo en particular deben usar esta guía para [instalar imágenes del sistema operativo](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
@@ -29,7 +29,7 @@ Cuando inicias el instalador, tu sistema operativo puede intentar bloquear su ej
 
 + Inserta tu tarjeta SD en la ranura para tarjetas SD del ordenador o del portátil.
 
-+ En el Raspberry Pi Imager, selecciona el sistema operativo que deseas instalar. La primera opción, Raspbian, es el sistema operativo recomendado.
++ En el Raspberry Pi Imager, selecciona el sistema operativo que deseas instalar. The first option, Rasperry Pi O, is the recommended OS.
 
 ![Raspberry Pi Imager en ventanas](images/newInstaller_selectOS.png)
 
