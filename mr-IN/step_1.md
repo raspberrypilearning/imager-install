@@ -1,8 +1,8 @@
 ## Raspberry Pi Imager चा वापर करून SD कार्ड वर Raspberry Pi OS इन्स्टॉल करणे
 
-Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi O yourself using a computer that has an SD card port or using an SD card reader.
+Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi OS yourself using a computer that has an SD card port or using an SD card reader.
 
-आपल्या एसडी कार्डवर Raspberry Pi इमेजर वापरणे हा Raspberry Pi OS इन्स्टॉल करण्याचा सर्वात सोपा मार्ग आहे.
+Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi OS on your SD card.
 
 **Note:** एखादं विशिष्ट ऑपरेटिंग सिस्टम इन्स्टॉल करण्यासाठी शोधत असलेल्या अधिक प्रगत वापरकर्त्यांनी [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) हे मार्गदर्शक वापरावे.
 
@@ -29,7 +29,7 @@ Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS p
 
 + संगणक किंवा लॅपटॉपच्या एसडी कार्ड स्लॉटमध्ये आपले एसडी कार्ड घाला.
 
-+ Raspberry Pi इमेजरमध्ये, आपण इन्स्टॉल करू इच्छित ओएस निवडा. The first option, Rasperry Pi O, is the recommended OS.
++ Raspberry Pi इमेजरमध्ये, आपण इन्स्टॉल करू इच्छित ओएस निवडा. पहिला पर्याय, Raspberry Pi OS, रेकॉम्मेन्डेड OS आहे.
 
 ![विंडोज़मध्ये Raspberry Pi इमेजर](images/newInstaller_selectOS.png)
 
