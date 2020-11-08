@@ -1,52 +1,52 @@
-## Install Rasperry Pi OS on your SD card with the Raspberry Pi Imager
+## Raspberry Pi Imagerを使ってSDカードにRaspberry Pi OSをインストールする
 
 Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi OS yourself using a computer that has an SD card port or using an SD card reader.
 
 Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi OS on your SD card.
 
-**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+**注意:**特定のオペレーティング・システムのインストールを検討している上級ユーザーは、このガイドを使用して[オペレーティング・システム・イメージのインストール](https://www.raspberrypi.org/documentation/installation/installing-images/README.md)を行ってください.
 
-### Download and launch the Raspberry Pi Imager
+### Raspberry Pi Imagerをダウンロードして起動する
 
-+ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
-+ Click on the link for the Raspberry Pi Imager that matches your operating system.
++ [Raspberry Piのダウンロードページ](https://www.raspberrypi.org/downloads)にアクセスする。
++ 使用しているオペレーティングシステムに対応するRaspberry Pi Imagerのリンクをクリックします。
 
-![Downloads page](images/newInstaller_downloadsPage.png)
+![ダウンロードページ](images/newInstaller_downloadsPage.png)
 
-+ When the download finishes, click on it to launch the installer.
++ ダウンロードが完了したら、クリックしてインストーラを起動します。
 
-![Launch installer](images/newInstaller_launchInstaller.png)
+![インストーラを起動](images/newInstaller_launchInstaller.png)
 
-### Using the Raspberry Pi Imager
+### Raspberry Pi Imagerを使う
 
-All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
+SDカードに保存されているすべてのデータは、フォーマット中に上書きされて永久に失われるので、インストーラを実行する前にSDカードや保存しておきたいファイルを必ずバックアップしてください。
 
-When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message:
+インストーラを起動したときに、使用しているオペレーティングシステムがインストーラの実行を阻止しようとすることがあります。 例えば、Windowsでは次のメッセージが表示されることがあります。
 
-![Windows warning](images/newInstaller_windowsWarning.png)
+![Windowsの警告](images/newInstaller_windowsWarning.png)
 
-+ If you get this, click on `More info` and then `Run anyway`.
++ これが表示されたら、`詳細情報`をクリックして、`それでも実行する`をクリックします。
 
-+ Insert your SD card into the computer or laptop’s SD card slot.
++ コンピュータやノートパソコンのSDカードスロットにSDカードを入れます。
 
-+ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Rasperry Pi O, is the recommended OS.
++ Raspberry Pi Imagerでインストールしたいオペレーティングシステムを選びます。 最初の選択にあるRaspberry Pi OSがおすすめです。
 
-![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
+![Windows版Raspberry Pi Imager](images/newInstaller_selectOS.png)
 
-+ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem.
++ インストールしたいSDカードを選びます。 ドライブの表示はプラットフォームごとに違います。 例えば、macOSではオペレーティングシステムが入っているドライブも含め、すべてのドライブが表示されます。
 
-**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+**注意:** 正しいドライブを選んでいるか確認してください。 ドライブの容量を見れば、どのドライブを選んでいるかわかります。
 
-![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+![Windows版Raspberry Pi Imager](images/newInstaller_select-SDCard.png)
 
-Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
+オペレーティングシステムとSDカードの両方を選ぶと、新たに`WRITE`ボタンが表示されます。
 
-![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+![Windows版Raspberry Pi Imager](images/newInstaller_osAndCardSelected.png)
 
-+ Then simply click the `WRITE` button.
++ `WRITE`ボタンをクリックします。
 
-+ Wait for the Raspberry Pi Imager to finsh writing.
++ Raspberry Pi Imagerの書き込みが終わるのを待ちます。
 
-+ Once you get the following message, you can eject your SD card.
++ 次のメッセージが表示されたら、SDカードを取り出します。
 
-![Write successful message](images/newInstaller_writeSuccessful.png)
+![書き込み成功メッセージ](images/newInstaller_writeSuccessful.png)
