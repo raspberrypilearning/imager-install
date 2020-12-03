@@ -39,11 +39,11 @@ Quando você executar o instalador, o seu sistema operacional pode impedir que v
 
 ![Raspberry Pi Imager em janelas](images/newInstaller_select-SDCard.png)
 
-Depois que você selecionar o sistema operacional e o cartão SD, um novo botão `GRAVAR` será exibido.
+Depois que você selecionar o sistema operacional e o cartão SD, um novo botão `GRAVAR (WRITE)` será exibido.
 
 ![Raspberry Pi Imager em janelas](images/newInstaller_osAndCardSelected.png)
 
-+ Em seguida, clique no botão `GRAVAR`.
++ Em seguida, clique no botão `GRAVAR (WRITE)`.
 
 + Aguarde até que o Raspberry Pi Imager termine a gravação.
 
