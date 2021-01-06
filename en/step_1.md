@@ -35,7 +35,7 @@ When you launch the installer, your operating system may try to block you from r
 
 + Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem. 
 
-**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+**Note:** Make sure you are selecting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
 
 ![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
 
