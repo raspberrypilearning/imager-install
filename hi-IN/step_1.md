@@ -1,52 +1,52 @@
-## Install Rasperry Pi OS on your SD card with the Raspberry Pi Imager
+## Raspberry Pi Imager की मदद से अपने एसडी कार्ड पर Raspberry Pi OS स्थापित करें
 
-Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi OS yourself using a computer that has an SD card port or using an SD card reader.
+कई विक्रेता ऐसे एसडी कार्ड बेचते हैं जिनमें पहले से एक साधारण Raspberry Pi OS इंस्टॉलर स्थापित होता है, जिन्हें एनओओबीएस कहा जाता है, लेकिन आप Raspberry Pi OS को आसानी से एक ऐसे कंप्यूटर का उपयोग कर अपने आप स्थापित कर सकते हैं जिसमें एसडी कार्ड पोर्ट या एसडी कार्ड रीडर हो।
 
-Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi OS on your SD card.
+Raspberry Pi Imager का उपयोग करना आपके एसडी कार्ड पर रास्पबियन स्थापित करने का सबसे आसान तरीका है।
 
-**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+**ध्यान दें:** किसी विशेष ऑपरेटिंग सिस्टम को स्थापित करने के लिए देख रहे अधिक उन्नत उपयोगकर्ताओं को इस गाइड [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) का उपयोग करना चाहिए I
 
-### Download and launch the Raspberry Pi Imager
+### Raspberry Pi Imager को डाउनलोड करें और लॉन्च करें
 
-+ Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
-+ Click on the link for the Raspberry Pi Imager that matches your operating system.
++ [Raspberry Pi डाउनलोड पेज](https://www.raspberrypi.org/downloads) पर जाएं।
++ आपके ऑपरेटिंग सिस्टम से मेल खाने वाले Raspberry Pi Imager के लिंक पर क्लिक करें।
 
-![Downloads page](images/newInstaller_downloadsPage.png)
+![डाउनलोड पेज](images/newInstaller_downloadsPage.png)
 
-+ When the download finishes, click on it to launch the installer.
++ जब डाउनलोड पूरा हो जाए, तो इंस्टॉलर को लॉन्च करने के लिए इसे क्लिक करें।
 
-![Launch installer](images/newInstaller_launchInstaller.png)
+![इंस्टॉलर लॉन्च करें](images/newInstaller_launchInstaller.png)
 
-### Using the Raspberry Pi Imager
+### Raspberry Pi Imager का उपयोग करना
 
-All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
+एसडी कार्ड पर संग्रहीत सभी डेटा को स्वरूपण के दौरान अधिलेखित कर दिया जाएगा और स्थायी रूप से खो जाएगा, इसलिए सुनिश्चित करें कि आप इंस्टॉलर को चलाने से पहले कार्ड या किसी भी फाइल का बैकअप लें।
 
-When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message:
+जब आप इंस्टॉलर लॉन्च करते हैं, तो आपका ऑपरेटिंग सिस्टम आपको इसे चलाने से रोकने की कोशिश कर सकता है। उदाहरण के लिए, Windows पर निम्नलिखित संदेश प्राप्त हो सकता है:
 
-![Windows warning](images/newInstaller_windowsWarning.png)
+![Windows चेतावनी](images/newInstaller_windowsWarning.png)
 
-+ If you get this, click on `More info` and then `Run anyway`.
++ यदि यह पॉप अप हो जाता है, तो `More info` और फिर `Run anyway` क्लिक करें।
 
-+ Insert your SD card into the computer or laptop’s SD card slot.
++ अपने एसडी कार्ड को कंप्यूटर या लैपटॉप के एसडी कार्ड स्लॉट में डालें।
 
-+ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Rasperry Pi O, is the recommended OS.
++ Raspberry Pi Imager में, उस ओएस का चयन करें जिसे आप इंस्टॉल करना चाहते हैं। पहला विकल्प, Raspberry Pi O, अनुशंसित ओएस है।
 
-![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
+![Windows में Raspberry Pi Imager](images/newInstaller_selectOS.png)
 
-+ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem.
++ उस एसडी कार्ड का चयन करें जिसमें आप इसे स्थापित करना चाहते हैं। विभिन्न प्लेटफ़ॉर्म विभिन्न तरीकों से ड्राइव प्रदर्शित करेंगे। उदाहरण के लिए, Mac OS, आपको मुख्य ऑपरेटिंग सिसाइटम सहित सभी ड्राइव दिखाएगा।
 
-**Note:** Make sure you are selcting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
+**Note:** Make sure you are selecting the correct drive. ड्राइव मेमोरी क्षमता एक उपयोगी संकेत हो सकती है कि आप किस ड्राइव का चयन कर रहे हैं।
 
-![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+![Windows में Raspberry Pi Imager](images/newInstaller_select-SDCard.png)
 
-Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
+एक बार जब आप ओएस और एसडी कार्ड दोनों का चयन कर लेते हैं, तो एक नया `WRITE` बटन दिखाई देगा।
 
-![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+![Windows में Raspberry Pi Imager](images/newInstaller_osAndCardSelected.png)
 
-+ Then simply click the `WRITE` button.
++ फिर बस `WRITE` बटन पर क्लिक करें।
 
-+ Wait for the Raspberry Pi Imager to finsh writing.
++ लेखन समाप्त करने के लिए Raspberry Pi Imager की प्रतीक्षा करें।
 
-+ Once you get the following message, you can eject your SD card.
++ एक बार जब आपको निम्न संदेश मिल जाता है, तो आप अपने एसडी कार्ड को निकाल सकते हैं।
 
-![Write successful message](images/newInstaller_writeSuccessful.png)
+![सफल संदेश लिखें](images/newInstaller_writeSuccessful.png)
