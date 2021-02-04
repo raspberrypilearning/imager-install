@@ -35,7 +35,7 @@ Cuando inicies el instalador, tu sistema operativo quizás intente evitar que lo
 
 + Selecciona la tarjeta SD en la que deseas instalarlo. Diferentes plataformas mostrarán las unidades de diferentes maneras. macOS, por ejemplo, te mostrará todas las unidades, incluído el sistema operativo principal.
 
-**Nota:** Asegúrate de seleccionar la unidad correcta. La capacidad de memoria de las unidades puede ser un indicativo útil de qué unidad estás seleccionando.
+**Note:** Make sure you are selecting the correct drive. La capacidad de memoria de las unidades puede ser un indicativo útil de qué unidad estás seleccionando.
 
 ![Raspberry Pi Imager en ventanas](images/newInstaller_select-SDCard.png)
 
