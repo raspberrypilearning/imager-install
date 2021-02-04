@@ -35,7 +35,7 @@ SDカードに保存されているすべてのデータは、フォーマット
 
 + インストールしたいSDカードを選びます。 ドライブの表示はプラットフォームごとに違います。 例えば、macOSではオペレーティングシステムが入っているドライブも含め、すべてのドライブが表示されます。
 
-**注意:** 正しいドライブを選んでいるか確認してください。 ドライブの容量を見れば、どのドライブを選んでいるかわかります。
+**Note:** Make sure you are selecting the correct drive. ドライブの容量を見れば、どのドライブを選んでいるかわかります。
 
 ![Windows版Raspberry Pi Imager](images/newInstaller_select-SDCard.png)
 
