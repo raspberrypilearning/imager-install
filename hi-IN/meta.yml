@@ -1,11 +1,11 @@
 ---
-title: Installing Raspbian using the Raspberry Pi
+title: Raspberry Pi का उपयोग करके रास्पबियन स्थापित करना
 hero_image: images/banner.png
-description: Installing Raspbian using the Raspberry Pi
+description: Raspberry Pi का उपयोग करके रास्पबियन स्थापित करना
 version: 4
 listed: true
 copyedit: false
 last_tested: "2020-03-10"
 steps:
   - 
-    title: Introduction
+    title: परिचय
