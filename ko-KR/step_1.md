@@ -35,7 +35,7 @@ SD 카드에 저장된 모든 데이터는 포맷을 하면 덮어써지고 영�
 
 + 운영체제를 설치하려는 SD 카드를 선택하세요. 설치 환경마다 다른 방식으로 드라이브가 표시됩니다. 예를 들어 Mac OS에서는 당신의 주 운영 체제를 포함한 모든 드라이브를 보여줄 것입니다.
 
-**참고:** 올바른 드라이브를 선택했는지 확인하세요. 드라이브 용량을 보면 당신이 선택한 드라이브가 어느 것인지 손쉽게 파악할 수 있습니다.
+**Note:** Make sure you are selecting the correct drive. 드라이브 용량을 보면 당신이 선택한 드라이브가 어느 것인지 손쉽게 파악할 수 있습니다.
 
 ![Windows에서의 Raspberry Pi Imager](images/newInstaller_select-SDCard.png)
 
