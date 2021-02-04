@@ -35,7 +35,7 @@ Quando você executar o instalador, o seu sistema operacional pode impedir que v
 
 + Selecione o cartão SD no qual você gostaria de colocar o sistema operacional. Plataformas diferentes mostram os drives de formas diferentes. O macOS, por exemplo, mostra todos os drives, inclusive o drive principal do sistema operacional.
 
-**Nota:** Certifique-se de que você está selecionando o drive correto. A capacidade de armazenamento dos drives pode ser útil para identificar qual drive você realmente quer selecionar.
+**Note:** Make sure you are selecting the correct drive. A capacidade de armazenamento dos drives pode ser útil para identificar qual drive você realmente quer selecionar.
 
 ![Raspberry Pi Imager em janelas](images/newInstaller_select-SDCard.png)
 
