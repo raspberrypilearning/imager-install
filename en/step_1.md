@@ -1,8 +1,6 @@
-## Install Rasperry Pi OS on your SD card with the Raspberry Pi Imager
+## Install Raspberry Pi OS on your SD card with the Raspberry Pi Imager
 
-Many vendors sell SD cards with a simple Rasperry Pi OS installer called NOOBS preinstalled but you can really easily install Rasperry Pi OS yourself using a computer that has an SD card port or using an SD card reader.
-
-Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi OS on your SD card.
+Using the **Raspberry Pi Imager** software is the easiest way to install Raspberry Pi OS on your SD card.
 
 **Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). 
 
@@ -11,42 +9,43 @@ Using the Raspberry Pi Imager is the easiest way to install Rasperry Pi OS on yo
 + Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
 + Click on the link for the Raspberry Pi Imager that matches your operating system.
 
-![Downloads page](images/newInstaller_downloadsPage.png)
+![Downloads page](images/download_installer.png)
 
 + When the download finishes, click on it to launch the installer.
 
-![Launch installer](images/newInstaller_launchInstaller.png)
-
-### Using the Raspberry Pi Imager
-
-All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep before running the installer.
+![Launch installer](images/click_on_installer.png)
 
 When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message: 
 
 ![Windows warning](images/newInstaller_windowsWarning.png)
 
-+ If you get this, click on `More info` and then `Run anyway`.
++ If you see this message, click on `More info` and then `Run anyway`.
 
-+ Insert your SD card into the computer or laptop’s SD card slot.
+### Write Raspberry Pi OS to a SD card
 
-+ In the Raspberry Pi Imager, select the OS that you want to install. The first option, Rasperry Pi O, is the recommended OS.
+All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep beforehand.
 
-![Raspberry Pi Imager in windows](images/newInstaller_selectOS.png)
++ Insert the SD card into the computer or laptop’s SD card slot. Some laptops may not have their own SD card slots, but you can connect a USB adapter with an SD card slot. 
 
-+ Select the SD card you would like to install it on. Different platforms will display the drives in different ways. Mac OS, for example, will show you all drives including you main operating sysytem. 
++ In the **Raspberry Pi Imager**, click "CHOOSE OS" and then select the option you want. If you are not sure, choose the first option - Raspberry Pi OS (64-bit). 
 
-**Note:** Make sure you are selecting the correct drive. The drives memory capacity can be a useful indication of which drive you are selecting.
 
-![Raspberry Pi Imager in windows](images/newInstaller_select-SDCard.png)
+![Raspberry Pi Imager in windows](images/choose_os.png)
+
++ Click "CHOOSE STORAGE" and select the SD card you just inserted. 
+
+**Note:** Make sure you are selecting the correct drive. The drive's memory capacity can be a useful indication of which drive you are selecting.
+
+![Raspberry Pi Imager in windows](images/select_sd_card.png)
 
 Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
 
-![Raspberry Pi Imager in windows](images/newInstaller_osAndCardSelected.png)
+![Raspberry Pi Imager in windows](images/write_os.png)
 
-+ Then simply click the `WRITE` button.
++ Click the `WRITE` button to begin writing to the SD card.
 
 + Wait for the Raspberry Pi Imager to finsh writing.
 
 + Once you get the following message, you can eject your SD card.
 
-![Write successful message](images/newInstaller_writeSuccessful.png)
+![Write successful message](images/write_done.png)
