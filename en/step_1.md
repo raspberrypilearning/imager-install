@@ -27,7 +27,7 @@ When you launch the installer, your operating system may try to block you from r
 
 All data stored on the SD card will be overwritten during formatting and lost permanently, so make sure that you back up the card or any files you want to keep beforehand.
 
-+ Insert the SD card into the computer or laptop’s SD card slot. Some laptops may not have their own SD card slots, but you can connect a USB adapter with an SD card slot. 
++ Insert the SD card into the computer or laptop’s SD card slot. Some laptops may not have a SD card slot, but you can connect a USB adapter which has an SD card slot. 
 
 + In the **Raspberry Pi Imager**, click "CHOOSE OS" and then select the option you want. If you are not sure, choose the first option - Raspberry Pi OS (64-bit). 
 
@@ -36,13 +36,10 @@ All data stored on the SD card will be overwritten during formatting and lost pe
 
 + Click "CHOOSE STORAGE" and select the SD card you just inserted. 
 
-**Note:** Make sure you are selecting the correct drive. The drive's memory capacity can be a useful indication of which drive you are selecting.
+Make sure you are selecting the correct drive. The drive's memory capacity can be a useful indication of which drive you are selecting.
 
 ![Raspberry Pi Imager in windows](images/select_sd_card.png)
 
-Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
-
-![Raspberry Pi Imager in windows](images/write_os.png)
 
 --- collapse ---
 ---
@@ -68,11 +65,14 @@ You can set up the Raspberry Pi with the details of your WiFi network and enable
 
 --- /collapse ---
 
-+ Click the `WRITE` button to begin writing to the SD card.
 
-+ Wait for the Raspberry Pi Imager to finsh writing.
+Once you have selected both the OS and the SD card, a new `WRITE` button will appear.
 
-+ Once you get the following message, you can eject your SD card.
+![Raspberry Pi Imager in windows](images/write_os.png)
+
++ Click the `WRITE` button to begin writing to the SD card, then wait for the Raspberry Pi Imager to finish writing.
+
++ When you see a message saying that the write has finished, you can eject the SD card and use it in your Raspberry Pi.
 
 ![Write successful message](images/write_done.png)
 
