@@ -1,25 +1,27 @@
-## Install Raspberry Pi OS on your SD card with the Raspberry Pi Imager
+## Install Raspberry Pi OS with the Raspberry Pi Imager
 
 Using the **Raspberry Pi Imager** software is the easiest way to install Raspberry Pi OS on your SD card.
-
-**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). 
 
 ### Download and launch the Raspberry Pi Imager
 
 + Visit the [Raspberry Pi downloads page](https://www.raspberrypi.org/downloads).
 + Click on the link for the Raspberry Pi Imager that matches your operating system.
 
-![Downloads page](images/download_installer.png)
-
-+ When the download finishes, click on it to launch the installer.
++ When the download finishes, click on the downloaded file to launch the installer.
 
 ![Launch installer](images/click_on_installer.png)
 
+--- collapse ---
+---
+title: A warning message popped up
+--- 
 When you launch the installer, your operating system may try to block you from running it. For example, Windows may give the following message: 
 
 ![Windows warning](images/newInstaller_windowsWarning.png)
 
 + If you see this message, click on `More info` and then `Run anyway`.
+
+--- /collapse ---
 
 ### Write Raspberry Pi OS to a SD card
 
@@ -42,6 +44,30 @@ Once you have selected both the OS and the SD card, a new `WRITE` button will ap
 
 ![Raspberry Pi Imager in windows](images/write_os.png)
 
+--- collapse ---
+---
+title: I want to set up WiFi, SSH and my user account
+---
+You can set up the Raspberry Pi with the details of your WiFi network and enable SSH in advance via the imager, so that you can connect to your Raspberry Pi remotely. All of these settings are optional, and you can safely skip this section and set them up later if you are planning to connect your Raspberry Pi to a screen, keyboard and mouse.
+
++ Click on the cog icon to access the advanced settings menu.
+
+![Advanced settings menu](images/advanced_settings.png)
+
++ To enable SSH, tick the box.
+
+![Enable SSH](images/enable_ssh.png)
+
++ Tick 'set username and password' and fill in the boxes to set the username and password used to log on to your Raspberry Pi.
+
+![Set the Raspberry Pi username and password](images/set_pi_user.png)
+
++ Tick 'Configure Wireless LAN' and enter the name of your wireless network and password. This will allow your Raspberry Pi to join the network and connect to the internet when it it switched on. 
+
+![Set up the WLAN](images/set_up_wifi.png)
+
+--- /collapse ---
+
 + Click the `WRITE` button to begin writing to the SD card.
 
 + Wait for the Raspberry Pi Imager to finsh writing.
@@ -49,3 +75,6 @@ Once you have selected both the OS and the SD card, a new `WRITE` button will ap
 + Once you get the following message, you can eject your SD card.
 
 ![Write successful message](images/write_done.png)
+
+
+**Note:** More advanced users looking to install a particular operating system should use this guide to [installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). 
