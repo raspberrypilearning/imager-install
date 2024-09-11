@@ -1,9 +1,9 @@
-title: Installing Raspbian using the Raspberry Pi
+title: Install Raspberry Pi OS with the Raspberry Pi Imager
 hero_image: images/banner.png
-description: Installing Raspbian using the Raspberry Pi
+description: Install Raspberry Pi OS with the Raspberry Pi Imager
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-03-10"
+last_tested: "2024-09-11"
 steps:
   - title: Introduction

@@ -1,5 +1,3 @@
-## Install Raspberry Pi OS with the Raspberry Pi Imager
-
 Using the **Raspberry Pi Imager** software is the easiest way to install Raspberry Pi OS on your SD card.
 
 ### Download and launch the Raspberry Pi Imager
